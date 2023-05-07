@@ -15,6 +15,22 @@
     margin-left: 7%;
 }
 
+#imagem{
+    margin-left: -12%;
+}
+
+#titulo1{
+    font-family: sans-serif;
+    color: #3f8376;
+    margin-left: 0%;
+}
+
+#subtitulo1{
+    font-family: sans-serif;
+    color: #3f8376;
+    margin-left: -3%;
+}
+
 fieldset{
     border: 0;
 }
