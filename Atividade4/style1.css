@@ -1,37 +1,122 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
 #tituloindex{
     font-family: sans-serif;
-    color: rgb(223, 161, 38);
-    margin-left: 0%;
-}
-
-#imagemindex{
-    margin-left: 30%;
+    color: #8D1704;
+    text-align: center;
 }
 
 #subtituloindex{
     font-family: sans-serif;
-    margin-left: -30%;
-    margin-right: -30%;
-    color: rgb(223, 161, 38);
-    
+    text-align: center;
+    color: #8D1704;
+    width: 30%;
+    margin-left: 35%;
 }
 
 .index{
-    background-color: rgb(19, 121, 224);
-    display: grid;
+    background-color: #31a61c60;
+}
+
+#linkindexdiv{
+    margin-left: 36%;
+    border: none;
+}
+
+.linkindex{
+    text-align: center;
+    font-family: sans-serif;
+    border: none;
+    padding: 10px;
+    background-color: #19580e70;
+    text-decoration: none;
+    cursor: pointer;
+    transition: backgound .3s;
+    border-radius: 10px;
+    outline: none;
+    color: #000000;
+    margin-right: 1%;
+}
+
+.linkindex:hover{
+    background-color: #8D1704;
+}
+
+#aldeoeshomens, #aldeoesmulheres{
+    background-color: #FFE0A3;
+    text-align: center;
     margin-left: 40%;
     margin-right: 40%;
     margin-top: 2%;
 }
 
-.linkindex{
+.aldeao{
     font-family: sans-serif;
-    margin-left: -30%;
-    display: flex;
-    gap: 105px;
+    color: #5B1613;
+    text-align: center;
+}
+
+.imagemaldeao, #imagemindex{
+    margin-left: 35%;
+    margin-right: 40%;
+    margin-top: 2%;
+}
+
+.textoaldeoes{
+    font-family: sans-serif;
+    color: #5B1613;
+    background-color: #ac7d1f98;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.voltarindex{
+    font-family: sans-serif;
+    border: none;
+    padding: 10px;
+    background-color: #ff00d498;
+    text-decoration: none;
+    cursor: pointer;
+    transition: backgound .3s;
+    border-radius: 10px;
+    outline: none;
+    color: #ffffff;
+}
+
+.voltarindex:hover{
+    background-color: #ff38de;
+}
+
+#lavouras{
+    background-color: #8e210096;
+    color: #ffffff;
+    text-align: center;
+}
+
+table, td, td{
+    background-color: #8e21003a;
+    border: px solid #000000;
+    padding: 2px 2px 2px 2px;
+    border-radius: 7px;
+}
+
+table{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#aldeoesmulheres{
+    background-color: #b9008b57;
+}
+
+#trailer{
+    background-color: #208da8;
+    text-align: center;
+}
+
+#Trailer, #TrilhaSonoraSpring{
+    color: #12338f;
+    background-color: #8e21003a;
+    border: px solid #000000;
+    padding: 2px 2px 2px 2px;
+    border-radius: 7px;
 }
