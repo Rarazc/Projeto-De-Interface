@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me Rafael Braz</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="overflow-x: hidden; width: 100%; height: 100vh;">
+        <div class="master_container">
+    
+          <nav class="d-flex flex-column align-items-center justify-content-center nav_container bg-primary-color py-5">
+            
+            <img src="https://avatars.githubusercontent.com/u/98630687?v=4" alt="Profile Photo" class="rounded-circle border border-5 border-dark-subtle profile">
+      
+            <ul class="nav_list my-5">
+              <li class="list-item">
+                <a href="../index.html" class="text-decoration-none d-flex align-items-center justify-content-center gap-3 secondary-color">
+                    <img src="../assets/Home_white.svg" alt="home">
+                    <span>Pagina Inicial</span>
+                </a>
+              </li>
+              <li class="list-item">
+                <a  href="./about.html" class="text-decoration-none d-flex align-items-center justify-content-center gap-3 secondary-color">
+                  <img src="../assets/About_white.svg" alt="home">
+                  <span>Sobre mim</span>
+                </a>
+              </li>
+              <li class="list-item">
+                <a href="./skills.html" class="text-decoration-none d-flex align-items-center justify-content-center gap-3 secondary-color">
+                  <img src="../assets/Skills_white.svg" alt="home">
+                  <span>Skills</span>
+                </a>
+              </li>
+              <li class="list-item">
+                <a href="./contact.html"  class="text-decoration-none d-flex align-items-center justify-content-center gap-3">
+                  <img src="../assets/Contac_select.svg" alt="home">
+                  <span class="active">Contato</span>
+                </a>
+              </li>
+            </ul>
+      
+          </nav>
+
+          <div class="content overflow-y-auto">
+            <div class="mt-2 pe-md-0 mt-md-5">
+
+                <h2 class="border-bottom border-success pb-3 border-4" style="max-width: 3.5em;">Contato</h2>
+                <div class="d-flex flex-column flex-md-row md-align-items-center mt-5 gap-5">
+                  <ul class="list-contact">
+                    <li class="list-item-contact">
+                      <img class="icon_contact" src="../assets/email.svg" alt="email">
+                      <span>rafael-kinect@live.com </span>
+                    </li>
+                    <li class="list-item-contact">
+                      <img class="icon_contact" src="../assets/linkdin.svg" alt="email">
+                      <span>www.linkedin.com/rafael-braz</span>
+                    </li>
+                    <li class="list-item-contact">
+                      <img class="icon_contact" src="../assets/instagram.svg" alt="email">
+                      <span>www.instagram.com/rarazc27</span>
+                    </li>
+                  </ul>
+                  <ul class="list-contact">
+                    <li class="list-item-contact">
+                      <img class="icon_contact" src="../assets/contact.svg" alt="email">
+                      <span>(61) 99685 - 9816</span>
+                    </li>
+                    <li class="list-item-contact">
+                      <img class="icon_contact" src="../assets/github.svg" alt="email">
+                      <span>www.github.com/rarazc</span>
+                    </li>
+                    <li class="list-item-contact">
+                      <img class="icon_contact" src="../assets/twitter.svg" alt="email">
+                      <span>www.twitter.com/Raraz_c</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <h2 class="border-bottom border-success pb-3 border-4 mt-4" style="max-width: 8.5em;">Entrar em Contato</h2>
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between pe-5 ps-3 my-3">
+                  <form class="d-flex flex-column gap-2">
+                    <div class="d-flex flex-column align-items-right gap-2">
+                      <label for="name">Nome</label>
+                      <input class="input-contact" type="text" id="name" placeholder="Digite seu nome">
+                    </div>
+                    <div class="d-flex flex-column align-items-right gap-2">
+                      <label for="celphone">Telefone</label>
+                      <input class="input-contact" type="text" id="celphone" placeholder="(XX) XXXX - XXXX">
+                    </div>
+                    <div class="d-flex flex-column align-items-right gap-2">
+                      <label for="email">Email</label>
+                      <input class="input-contact" type="email" id="email" placeholder="exemplo@email.cm">
+                    </div>
+                    <div class="d-flex flex-column align-items-right gap-2">
+                      <label for="about">Motivo do Contato</label>
+                      <textarea class="textarea-contact" id="about"></textarea>
+                    </div>
+                    <div class="mx-auto">
+                      <button type="submit" class="btn btn-success">Enviar Messagem</button>
+                    </div>
+                  </form>
+                  <div class="map">
+                    <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123066.18973889726!2d-47.70087188668225!3d-15.44034816750922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a0ec423e1d32b%3A0x33d436feb3c0e2b2!2sPlanaltina%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1687011246331!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="card text-center bg-primary-color">
+            <div class="card-header d-flex gap-3 mx-auto mt-4">
+              <a href="https://twitter.com/Raraz_c" target=”_blank” class="secondary-color text-decoration-none">
+                <img src="../assets/twitter.svg" alt="twitter">
+              </a>
+              <a href="https://instagram.com/rarazc27" target=”_blank” class="secondary-color text-decoration-none">
+                <img src="../assets/instagram.svg" alt="instagram">
+              </a>
+              <a href="https://github.com/rarazc" target=”_blank” class="secondary-color text-decoration-none">
+                <img src="../assets/github.svg" alt="github">
+              </a>
+            </div>
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <div class="d-flex mx-auto gap-2">
+                <p class="card-text">Info <span class="secondary-color">.</span></p>
+                <p class="card-text">Suport <span class="secondary-color">.</span></p>
+                <p class="card-text">Marketin</p>
+              </div>
+              <div class="d-flex gap-2">
+                <p class="card-text">Terms of Use <span class="secondary-color">.</span></p>
+                <p class="card-text">Privacy Police</p>
+              </div>
+              <p class="card-text">© 2023 Rafael</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
